@@ -140,7 +140,7 @@ p{margin:0}
 .price-row{display:flex;align-items:baseline;justify-content:center;gap:14px}
 .price-old{font-size:20px;color:var(--warm-gray);text-decoration:line-through}
 .price-new{font-family:'Fraunces',Georgia,serif;font-size:44px;font-weight:700;color:var(--gold-bright)}
-.price-note{margin-top:8px;font-size:14px;color:var(--warm-gray)}
+.price-note{margin-top:8px;font-size:14px;color:var(--cream);opacity:.75}
 
 .scarcity{
   display:inline-block;margin-bottom:24px;padding:8px 18px;border-radius:999px;
