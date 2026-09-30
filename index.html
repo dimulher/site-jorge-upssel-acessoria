@@ -76,8 +76,22 @@
 
         <p class="scarcity reveal" style="--d:.52s">Restam poucas vagas de agenda para esse mês.</p>
 
-        <a href="#" class="btn btn-gold js-upsell-cta reveal" style="--d:.58s">Quero o Diagnóstico da minha Mentoria</a>
-        <a href="#" class="decline reveal" style="--d:.64s">Não, obrigado, só a vaga do evento mesmo</a>
+        <cakto-upsell-accept
+          class="reveal"
+          style="--d:.58s"
+          bg-color="#D4A23F"
+          text-color="#140F05"
+          upsell-accept-url="members_area"
+          offer-id="3ezi8ru"
+          app-base-url="https://app.cakto.com.br"
+          offer-type="upsell"
+          upsell-reject-url="members_area"
+        >Quero o Diagnóstico da minha Mentoria</cakto-upsell-accept>
+        <cakto-upsell-reject
+          class="reveal"
+          style="--d:.64s"
+          upsell-reject-url="members_area"
+        >Não, obrigado, só a vaga do evento mesmo</cakto-upsell-reject>
       </div>
     </div>
   </section>
@@ -118,5 +132,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script type="text/javascript" src="https://caktoscripts.nyc3.cdn.digitaloceanspaces.com/upsell.js"></script>
 </body>
 </html>
